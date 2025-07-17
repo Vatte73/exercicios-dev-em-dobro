@@ -1,0 +1,29 @@
+ul.pictures-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+li {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 20px;
+}
+
+.picture-info {
+    padding-left: 19px;
+    transform: translateY(-80px);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 335px;
+    height: 430px;
+}
